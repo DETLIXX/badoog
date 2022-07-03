@@ -137,6 +137,9 @@
 
 @media (max-width: 980px) {
 
+    .btn { 
+        margin: 10px 0;
+    }
 
     .title-image { 
         transform: rotate(0);
