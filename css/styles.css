@@ -1,0 +1,182 @@
+#title { 
+    background-color: #5c06ba;
+}
+
+
+.header-title { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 700;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.col-md-6 button { 
+    margin: 0 5px;
+}
+
+.container-fluid { 
+    padding: 3% 15%;
+}
+
+.navbar { 
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand { 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item { 
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 18px;
+}
+
+.title-image { 
+    margin-left: 100px;
+    width: 20%;
+    transform: rotate(5deg);
+    position: absolute;
+}
+
+#features { 
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box { 
+    text-align: center;
+}
+
+.feature-box i { 
+    margin-bottom: 1rem;
+    color: #5c06ba;
+}
+
+.feature-box i:hover { 
+    color: #5c06ba;
+}
+
+.feature-box h3 { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feature-box p { 
+    color: gray;
+}
+
+#testimonials { 
+    text-align: center;
+    background-color: #5c06ba;
+    color: white;
+    
+}
+
+.carousel-item { 
+    padding: 7% 15%;
+}
+
+#testimonials em { 
+    margin-left: 20px; 
+} 
+
+.testimonials-img { 
+    border-radius: 100%;
+    width: 5rem;
+    margin-top: 20px;
+}
+
+#press { 
+    background-color: #5c06ba;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.press-img { 
+    width: 13rem;
+}
+
+#pricing { 
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#pricing button { 
+    background-color: #5c06ba;
+    color: white;
+}
+
+#pricing h2, h4 { 
+    font-family: 'Montserrat', sans-serif; 
+} 
+
+#pricing p { 
+    color: gray;
+}
+
+.best-price { 
+    background-color: #5c06ba;
+    text-align:center;
+    color: #F4E06D;
+
+}
+
+.plus-btn { 
+    background-color: #5c06ba;
+    color: white;
+}
+
+.card-header-plus{ 
+    background-color: #5c06ba;
+    color: white;
+}
+
+@media (max-width: 1028px) {
+
+
+    .title-image { 
+        transform: rotate(0);
+        position: static;
+        margin: 30px 0;
+        width: 300px;
+    }
+    #title { 
+        text-align: center;
+    }
+
+    #title h1 { 
+        font-size: 60px;
+    }
+}
+
+#cta { 
+    padding: 7% 15%;
+    background-color: #5c06ba;
+    color: white;
+    text-align: center;
+}
+
+#cta h3 { 
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+}
+
+#footer { 
+    padding: 2% 15% 1% 15%;
+    text-align: center;
+}
+
+.social-site-ico { 
+    margin: 0 5px;
+    width: 100px;
+    color: black;
+}
+
+.social-site-ico:hover { 
+    color: #5c06ba;
+}
